@@ -1,0 +1,67 @@
+
+
+:root {
+    --color0: #945496 ;
+    --color1: #83e1ad;
+    --color2: #3ddc84;
+    --color3: #2fa866;
+    --color4: #1a5c37;
+    --color5 :#063d1e;
+  
+    --font-highlight-title: 'Bebas Neue', sans-serif;
+    --font-highlight-text: 'Android', 'cursive';                                                             
+    --font-standart: Arial, Verdana, Helvetica, sans-serif;
+    --font-standart: Arial, Verdana, Helvetica, sans-serif
+    --font-test: 'Dancing Script', cursive;
+  }
+
+
+  header {
+    background-image: linear-gradient(var(--color0), var(--color5));
+    min-height: 250px;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  main{
+    background-color:var(--color0) ;
+  }
+
+
+  article {
+    max-width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+  }
+  
+  article > h1 {
+    color: var(--color5);
+    font-family: var(--font-highlight-text);
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  
+  article > p {
+    /* font-family: var(--font-standart); */
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  article > h2  {
+color: var(--color5);
+font-family: var(--font-highlight-text);
+background-image: linear-gradient();
+margin-top: 10px;
+  }
+
+  .image-rosenmontag{
+ display: block;
+ margin: auto;   
+ margin-bottom: 10px;
+  }
