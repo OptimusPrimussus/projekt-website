@@ -1,4 +1,4 @@
-body{
+* {
   margin: 0;
 }
 
@@ -88,4 +88,10 @@ margin-top: 10px;
  margin-bottom: 10px;
   }
 
+  footer {
+    color: 	white;
+    background-color: var(--color0);
+    font-size: 20px;
+    text-align: center;
+  }
   
