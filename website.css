@@ -1,3 +1,10 @@
+body{
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
 
 
 :root {
@@ -23,6 +30,20 @@
     padding-top: 40px;
   }
 
+nav{
+  background-color: var(--color5);
+  min-height: 30px;
+}
+
+nav > a {
+  color: white;
+  font-family: var(--font-highlight-text);
+  margin-left: 40px;
+  font-weight: bold;
+  
+ 
+  
+}
   main{
     background-color:var(--color0) ;
   }
@@ -58,6 +79,7 @@ color: var(--color5);
 font-family: var(--font-highlight-text);
 background-image: linear-gradient();
 margin-top: 10px;
+
   }
 
   .image-rosenmontag{
@@ -65,3 +87,5 @@ margin-top: 10px;
  margin: auto;   
  margin-bottom: 10px;
   }
+
+  
